@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Libre Baskerville;
+    background-color: #5AC5E8;
+}
+
+.primeiro {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.primeiro p {
+    margin-left: 4rem;
+}
+
+img {
+    width: 20rem;
+    height: auto;
+    margin: 5rem;
+} 
+
+.segunda {
+    display: flex;
+    background-color: #5A98E8;
+    height: 20rem; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terceira {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
